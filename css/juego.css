@@ -1,0 +1,109 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+  color: #000;
+}
+#titulo{
+  background-color: #ef5350;
+  text-align: center;
+  color:white;
+}
+h2{
+  color:#ef5350;
+}
+
+img{
+  width: 85%;
+  height:85%;
+
+}
+.col-60{
+  width: 600px;
+  height: 600px;
+  background-color: #81c784; 
+}
+
+#juego{
+  width:600px;
+  height:600px;
+/*  border:1px solid red;*/
+}
+#juego div {
+float:left;
+ text-align: center;
+  animation: fadein 2s;
+}
+.pieza{
+  width:198px;
+  height:198px;
+  background-size: cover;
+  border:1px solid #81c784;  
+}
+
+#pieza1{
+  background-image: url("../images/10.jpg");
+}
+#pieza2{
+  background-image: url("../images/20.jpg");
+}
+#pieza3{
+  background-image: url("../images/30.jpg");
+}
+#pieza4{
+  background-image: url("../images/40.jpg");
+}
+#pieza5{
+  background-image: url("../images/50.jpg");
+}
+#pieza6{
+  background-image: url("../images/60.jpg");
+}
+#pieza7{
+  background-image: url("../images/70.jpg"); 
+}
+#pieza8{
+  background-image: url("../images/80.jpg"); 
+}
+#pieza9{
+  background-color: #81c784;; 
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+footer{
+  background-color: #424242;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+}
